@@ -1,0 +1,7 @@
+.logo {
+	color: var(--color-logo);
+	font-size: 26px;
+    font-weight:900;
+    line-height: 38px;
+    letter-spacing: 0px;
+}

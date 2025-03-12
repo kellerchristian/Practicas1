@@ -1,0 +1,17 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card {
+    color: var(--color-texto-secundario);
+    font-size: 0.75rem;
+    text-align: left;
+}
+.card img {
+    width: 36px;
+    height: 36px;
+}
+ .card h3 {
+    font-size: 1rem;
+ }

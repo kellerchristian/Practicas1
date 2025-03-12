@@ -1,0 +1,25 @@
+.button {
+
+    width: 150px;
+    height: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid var(--color-boton-primary);
+    background-color: var(--color-boton-primary);
+    color: var(--color-fondo);
+}
+
+.button:hover {
+    background-color: var(--color-boton-hover);
+}
+
+.button.secondary {
+    background-color: transparent;
+    color: var(--color-boton-primary);
+}
+
+.button.secondary:hover {
+    background-color: var(--color-boton-hover);
+}

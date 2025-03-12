@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Consulta del Clima</h1>
+
+    <!-- Formulario para introducir manualmente la latitud y longitud -->
+    <form id="clima-form">
+        <label for="lat">Latitud:</label>
+        <input type="text" id="lat" placeholder="Introduce la latitud" required><br><br>
+
+        <label for="lon">Longitud:</label>
+        <input type="text" id="lon" placeholder="Introduce la longitud" required><br><br>
+
+        <button type="submit">Consultar Clima</button>
+    </form>
+
+    <p id="consulta-hora"></p>
+
+    <ul id="weather-list"></ul>
+
+    <!-- Incluir el archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

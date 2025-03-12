@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear un Nuevo Post</title>
+    <link rel="stylesheet" href="create-post.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crear un Nuevo Post</h1>
+
+
+    </div>
+
+    <script>
+        document.getElementById('createPostForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const newPost = {
+                title: document.getElementById('title').value,
+                content: document.getElementById('content').value,
+                author: document.getElementById('author').value
+            };
+
+            fetch('http://192.168.1.40:8081/v1/posts', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(newPost),
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert('Post creado exitosamente');
+                window.location.href = '/';  // Redirige a la página principal
+            })
+            .catch(error => {
+                console.error('Error al crear el post:', error);
+            });
+        });
+    </script>
+</body>
+</html>

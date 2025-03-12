@@ -1,0 +1,28 @@
+html {
+  font-size: 16px;  /* tamaño base para pantallas grandes */
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;  /* tamaño base más pequeño para pantallas más pequeñas (tablets, por ejemplo) */
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;  /* tamaño base aún más pequeño para pantallas muy pequeñas (móviles) */
+  }
+}
+
+
+@media (max-width: 768px) {
+    .split-section {
+        flex-direction: column;
+        align-items: flex-start; /* Alineación vertical (arriba) */
+    }
+
+
+    .split-section > .right > .text {
+        margin-left: 0; /* Elimina el margen izquierdo si es necesario */
+    }
+}

@@ -1,0 +1,119 @@
+[
+	{
+		"id": 1,
+		"titulo": "Hola Mundo",
+		"contenido": "Lorem ipsum sit amet",
+		"fecha": "02/03/2025",
+		"autor": "Pepito"
+	},
+	{
+		"id": 2,
+		"titulo": "Hola Mundo",
+		"contenido": "Lorem ipsum sit amet",
+		"fecha": "02/03/2025",
+		"autor": "Pepito"
+	},
+
+
+
+
+	{
+	  "id": 4,
+	  "title": "Introducción a Symfony",
+	  "content": "Symfony es un framework PHP potente y flexible para construir aplicaciones web robustas.",
+	  "date": {
+		"date": "2025-03-04 07:32:04.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Carlos Pérez"
+	},
+	{
+	  "id": 5,
+	  "title": "Conceptos clave de Docker",
+	  "content": "Docker permite crear, desplegar y ejecutar aplicaciones en contenedores.",
+	  "date": {
+		"date": "2025-03-04 07:32:53.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Laura Gómez"
+	},
+	{
+	  "id": 6,
+	  "title": "API REST con Symfony",
+	  "content": "Construir una API REST con Symfony es fácil gracias a su integración con API Platform.",
+	  "date": {
+		"date": "2025-03-04 07:35:26.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "María Rodríguez"
+	},
+	{
+	  "id": 7,
+	  "title": "Bases de datos en PHP",
+	  "content": "PHP ofrece múltiples opciones para conectarse a bases de datos, incluyendo PDO y Doctrine.",
+	  "date": {
+		"date": "2025-03-04 07:36:04.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Andrés López"
+	},
+	{
+	  "id": 8,
+	  "title": "Seguridad en aplicaciones web",
+	  "content": "Las medidas de seguridad como CSRF y XSS son esenciales en el desarrollo web.",
+	  "date": {
+		"date": "2025-03-04 07:36:43.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Elena Sánchez"
+	},
+	{
+	  "id": 9,
+	  "title": "Patrones de diseño en PHP",
+	  "content": "Los patrones como MVC y Singleton son fundamentales para estructurar código PHP.",
+	  "date": {
+		"date": "2025-03-04 07:37:35.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Ricardo Torres"
+	},
+	{
+	  "id": 10,
+	  "title": "Deploy en VPS con Docker",
+	  "content": "El despliegue de aplicaciones con Docker en un VPS simplifica la gestión de entornos.",
+	  "date": {
+		"date": "2025-03-04 07:38:14.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Sofía Ramírez"
+	},
+	{
+	  "id": 11,
+	  "title": "Introducción a Composer",
+	  "content": "Composer es un gestor de dependencias para PHP que facilita la instalación de paquetes.",
+	  "date": {
+		"date": "2025-03-04 07:39:12.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Miguel Ángel Ruiz"
+	},
+	{
+	  "id": 12,
+	  "title": "Optimización de consultas SQL",
+	  "content": "Mejorar la eficiencia de las consultas SQL es clave para el rendimiento de una aplicación.",
+	  "date": {
+		"date": "2025-03-04 07:39:54.000000",
+		"timezone_type": 3,
+		"timezone": "UTC"
+	  },
+	  "author": "Paula Fernández"
+	}
+]
